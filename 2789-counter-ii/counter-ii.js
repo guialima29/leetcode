@@ -6,12 +6,10 @@ var createCounter = function(init) {
     const backup = init;
     return {
         increment: function(){
-            init++;
-            return init;
+            return ++init;
         },
         decrement: function(){
-            init--;
-            return init;
+            return --init;
         },
         reset: function(){
             init = backup;
