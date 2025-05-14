@@ -2,10 +2,11 @@
 #include <iostream>
 
 class Solution {
+    const int MIN_INT = std::numeric_limits<int>::min();
+    const int MAX_INT = std::numeric_limits<int>::max();
 public:
     bool isPalindrome(int x) {
-        const int MIN_INT = std::numeric_limits<int>::min();
-        const int MAX_INT = std::numeric_limits<int>::max();
+        
         if (x >= MIN_INT && x <= MAX_INT) {
             long long x_rev = 0;
             int num = x;
