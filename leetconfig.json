@@ -1,0 +1,4 @@
+{
+  "site": "leetcode.com",
+  "codePath": "exercise/${question.titleSlug}.${ext}"
+}
